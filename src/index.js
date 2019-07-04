@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import About from "./components/About";
+import HelloWord from "./components/HelloWord";
 
-ReactDOM.render(<About/>,document.getElementById( 'app'));
+ReactDOM.render(<HelloWord/>,document.getElementById( 'app'));
