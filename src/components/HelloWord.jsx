@@ -1,29 +1,33 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class HelloWord extends Component{
+const HelloWord = () =>{
 
-    state={
-        active: true,
+    const [activate, setActivate] = useState(true);
 
-    };
-
-    handleClik = () =>{
-        this.setState({
-            active: !this.state.active,
-        });
-
-    };
-
-    render() {
-        return(
-          <div>
-              <button onClick={this.handleClik}> Ocultar </button>
-              {
-                  this.state.active &&
-                      <h1>Hola Mundo</h1>
-              }
-          </div>
-        );
+    const handleclik = () => {
+        setActivate(!activate);
     }
+
+    console.log("Perro");
+
+    return(
+        <div>
+            <button onClick={handleclik}> OCULTAR </button>
+            {activate &&
+                <h1> Hola al mundo de los Hooks!</h1>
+            }
+
+        </div>
+    );
+
+
+
 }
+
+
+
+
+
+
+
 export  default  HelloWord;

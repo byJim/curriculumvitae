@@ -1,6 +1,6 @@
 import React from 'react';
 import Main from '../components/Main';
-import Saidbar from '../components/Saidbar';
+import SBar from '../components/SBar';
 import Information from '../components/Information';
 import About from '../components/About';
 import Education from '../components/Education';
@@ -12,20 +12,17 @@ import Skill from '../components/Skill';
 const App = () => {
     return(
         <Main>
-            <Saidbar>
+            <SBar>
                 <About/>
-            </Saidbar>
+            </SBar>
             <Information>
                 <Education/>
                 <Experience/>
                 <Certificates/>
                 <Skill/>
             </Information>
-
         </Main>
-
     );
-
-}
+};
 
 export default App;
