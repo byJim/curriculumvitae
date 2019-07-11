@@ -1,12 +1,22 @@
 import React from 'react';
 
-const Experiencies = () =>(
+const Experiencies = props =>(
     <div className="Experiencies">
         <div className= "Experiencies-conteiner">
-            <div className= "Experiencies-item">
-                <h3>Fronted @COLAB  Junio 2019 - Julio 2019</h3>
-                <p> Desarollador Fronted en COLAB </p>
-            </div>
+
+            {props.data.map((cer,index) =>(
+
+                <div className="Experience-item" key={`Cer-${index}`}>
+
+                    <h3> {cer.jobTitle} @ {cer.company}
+                        <span>{cer.startDate} - {cer.endDate}</span>
+                    </h3>
+                    <p> {cer.jobDescription}</p>
+                </div>
+
+            ))
+            }
+
         </div>
     </div>
 );
