@@ -30,7 +30,7 @@ const App = () => {
                 <Education data= {data.education} />
                 <Experience data = {data.experience} />
                 <Certificates data = {data.certificate} />
-                <Skill/>
+                <Skill data={data.skills}/>
             </Information>
         </Main>
     );
