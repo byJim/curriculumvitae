@@ -1,0 +1,93 @@
+/* 20190711160737
+  https://firebasestorage.googleapis.com/v0/b/jimmyottonielgrapi.appspot.com/o/me.json?alt=media&token=dad38ca1-c79a-419b-892b-53ff55b4f863
+*/
+
+{
+    "address": "Medellin, Colombia.",
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/jimmyottonielgrapi.appspot.com/o/11609_1001204013302959_6359993226934410137_n.jpg?alt=media&token=6c417b9c-f451-4832-8281-cedc0f4568b2",
+    "bio": "Jimmy! Me apasiona la tecnologia y los gatos! Soy de donde acaban los caminos. Donde al barrer bajo tu cama, ha nuves.",
+    "certificate": [
+      {
+        "date": "Junio 2019",
+        "description": "Transformando Chimaltenango - Colab un punto de irrupcion en este tiempo.",
+        "institution": "Colab",
+        "name": "FrontEnd Developer"
+      },
+      {
+        "date": "Enero 20181",
+        "description": "Desarollador en JAVA ! Fue una experiencia grandiosa",
+        "institution": "Universidad Mariano Galvez",
+        "name": "Java Developer"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ingeniero en Sistemas y Ciencias de la Computacion",
+        "description": " Ingeniero por titulo, educador por pasion",
+        "endDate": " -- ",
+        "institution": "UMG",
+        "startDate": " Enero 2015 " 
+      },
+      {
+        "degree": "Maestro de Educacion Primaria",
+        "description": "Educador - Facilitador apasionado de la tecnologia y lo demas. ",
+        "endDate": "Decenber 2013",
+        "institution": "INVAL",
+        "startDate": "Enero 2010"
+      }
+    ],
+    "experience": [
+      {
+        "company": "COLAB",
+        "endDate": "Present",
+        "jobDescription": "Desarollador de plataformas de EDX  y WEB",
+        "jobTitle": "Frontend",
+        "startDate": "Enero 2019"
+      },
+      {
+        "company": "MINEDUC",
+        "endDate": "Enero 2015",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Maestro de Educacion Primaria",
+        "startDate": "Sept 2017"
+      }
+    ],
+    "name": "Jimmy Ottoniel Gabriel Roquel",
+    "profession": "FrontEnd Developer",
+    "skills": [
+      {
+        "name": "HTML5",
+        "percentage": "75%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "25%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "55%"
+      },
+      {
+        "name": "React",
+        "percentage": "90%"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/jimmyottonielgr"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/Jimbo_Gabriel/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Jimmygabriel"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/"
+      }
+    ]
+  }
